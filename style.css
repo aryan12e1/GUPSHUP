@@ -1,0 +1,86 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #fffdf7;
+    color: #333;
+}
+
+.hero {
+    background: linear-gradient(135deg, #ffe6c7, #fff4e0);
+    padding: 80px 20px;
+    text-align: center;
+    border-bottom: 4px solid #ffc107;
+}
+
+.hero h1 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 60px;
+    color: #8b2e2e;
+    margin-bottom: 10px;
+}
+
+.hero h3 {
+    color: #1c6b6b;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #c23a3a;
+}
+
+.hero img {
+    max-width: 280px;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease;
+}
+
+.hero img:hover {
+    transform: scale(1.05);
+}
+
+.section-title {
+    font-family: 'Fredoka', sans-serif;
+    color: #1c6b6b;
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.price-box {
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.price-box:hover {
+    transform: translateY(-5px);
+}
+
+.event,
+.contact {
+    background: #f4fbf9;
+}
+
+footer {
+    background: #1c6b6b;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+a {
+    color: #1c6b6b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e91e63;
+    text-decoration: underline;
+}
